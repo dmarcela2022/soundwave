@@ -1,25 +1,32 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import imgGirl from './img/landing-page-girl.png';
+import Header from './components/Header';
+import Footer from './components/Footer';
+import Join from './components/Join';
+import Main from './components/Main';
+import Discover from './components/Discover';
 
 function App() {
+  const [currentPage,setCurrentPage]=useState("main")
+  let content;
+  if (currentPage === "main"){
+    content = <Main/> 
+  } else if (currentPage === "discover"){
+    content = <Discover/>
+  } else if (currentPage === "join"){
+    content = <Join/>
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header 
+        onDiscover={()=>setCurrentPage("discover")} 
+        onJoin={()=>setCurrentPage("join")}
+        />
+
+      {content}
+      <Footer/>
     </div>
   );
 }
-
 export default App;
