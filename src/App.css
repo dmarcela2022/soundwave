@@ -2,6 +2,8 @@
   margin:auto;
   padding: auto;
   font-family: Poppins;
+  font-size: 1.2rem;
+  
 }
 
 Body{
@@ -21,6 +23,43 @@ header{
   border-radius: 8px;
   cursor: pointer;
 }
+.form{
+  background-color: #202027;
+  margin: 4em;
+  padding: 2em;
+  border-radius: 15px;
+  width: 25em;
+  font-weight: bold;
+  z-index: 1;
+}
+.input{
+  width: 100%;
+  margin-top:0.5em;
+  margin-bottom: 0.5em;
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  background-color:#202027;
+  border: #1762A7 1px solid;
+  border-radius: 4px;
+}
+.button-form{
+  width: 100%;
+  background-color: #1762A7;
+  color: white;
+  padding: 14px 20px;
+  margin-top: 1em;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.button-form:hover{
+  background-color: #2180d8;
+}
+
+
+
+
+
 .circle1 {
   background:#bc3a801a;
   border-radius: 50%;

@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Join from './components/Join';
 import Main from './components/Main';
 import Discover from './components/Discover';
+import imgCover from './img/covers.jpg';
 
 function App() {
   const [currentPage,setCurrentPage]=useState("main")
