@@ -1,17 +1,22 @@
 *{
   margin:auto;
-  padding: auto;
   font-family: Poppins;
-  font-size: 1.2rem;
-  
+  font-size: 1.2rem;  
 }
-
 Body{
   background-color: #2F303A;
   font-family: 'Poppins', sans-serif;
   color: white;
 } 
 header{
+  display: flex; 
+}
+#logo1{
+  gap: 10px;
+  display: flex; 
+}
+#botones{
+  gap: 10px;
   display: flex;
 }
 .boton{
@@ -25,10 +30,10 @@ header{
 }
 .form{
   background-color: #202027;
-  margin: 4em;
+  margin: 3em;
   padding: 2em;
   border-radius: 15px;
-  width: 25em;
+  width: 20em;
   font-weight: bold;
   z-index: 1;
 }
@@ -53,28 +58,12 @@ header{
   cursor: pointer;
 }
 .button-form:hover{
-  background-color: #2180d8;
+  background-color: #1762A7;
 }
-
-
-
-
-
-.circle1 {
-  background:#bc3a801a;
-  border-radius: 50%;
-  position: absolute;
-  top :0;
-  transform: translate(100px, 100px);
-  width: 500px;
-  height: 500px;
+#footer>div {
+  display: flex;
+  gap: 10px;
 }
-.circle2 {
-  background:#bc3a801a;
-  border-radius: 50%;
-  position: absolute;
-  top :0;
-  transform: translate(100px, 100px);
-  width: 500px;
-  height: 500px; 
+#footer{
+  display:flex;
 }

@@ -13,16 +13,19 @@ function Discover() {
           <Box style={{display:"flex",}}>
           
           <Button style={{display:"flex",flexDirection:"column", gap:"15px", backgroundColor: "#202027", width:"6rem", height:"6rem", margin:"0.5rem"
-          }}><img src={microphone} alt="microphone"/><Typography variant="body2" style={{fontFamily: "Poppins", fontSize: "1rem", color: "#FFFFFD", textTransform: "capitalize"}}> Charts</Typography>
+          }}><img src={microphone} alt="microphone"/>
+          <Typography variant="body2" style={{fontFamily: "Poppins", fontSize: "1rem", color: "#FFFFFD", textTransform: "capitalize"}}> Charts</Typography>
           </Button>
 
           <Button style={{display:"flex",flexDirection:"column", gap:"15px", backgroundColor: "#202027" , width:"6rem", height:"6rem", margin:"0.5rem"
-          }}><img src={albums} alt="albums"/><Typography variant="body2" style={{fontFamily: "Poppins", fontSize: "1rem", color: 
+          }}><img src={albums} alt="albums"/>
+          <Typography variant="body2" style={{fontFamily: "Poppins", fontSize: "1rem", color: 
           "#FFFFFD", textTransform: "capitalize"}}>Albums</Typography>
           </Button>
           
-          <Button style={{display:"flex",flexDirection:"column", gap:"15px", backgroundColor: "#202027" 
-          }}><img src={more} alt="more"/><Typography variant="body2" style={{fontFamily: "Poppins", fontSize: "1rem", color: 
+          <Button style={{display:"flex",flexDirection:"column", gap:"15px", backgroundColor: "#202027", width:"6rem", height:"6rem", margin:"0.5rem"
+          }}><img src={more} alt="more"/>
+          <Typography variant="body2" style={{fontFamily: "Poppins", fontSize: "1rem", color: 
            "#FFFFFD", textTransform: "capitalize"}}>More</Typography>
           </Button>
 

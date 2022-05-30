@@ -3,7 +3,6 @@ import {Grid} from "@mui/material";
 
 function Join(){
     return (<div className="join">
-        <div>Join the fun</div>
         <Grid container direction="row" justifyContent="center" alignItems="center">
                 <div className="grid-block">
                     <h1 className="text-join">Join the <span className="acent">Fun</span></h1>
