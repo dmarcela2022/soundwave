@@ -10,8 +10,10 @@ function Footer() {
         <a>Contact</a>
       </div>
       <div>
-        <img src={twitter}/><span>Twitter</span>
-        <img src={fcb}/><span>Facefook</span>
+        <img src={twitter} />
+        <span>Twitter</span>
+        <img src={fcb} />
+        <span>Facefook</span>
       </div>
     </div>
   );
