@@ -6,7 +6,7 @@ function Join() {
     <div className="join">
       <Grid
         container
-        direction="row"
+        direction="row"npm start
         justifyContent="center"
         alignItems="center"
       >

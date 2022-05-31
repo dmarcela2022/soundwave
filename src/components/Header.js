@@ -3,14 +3,14 @@ import React from "react";
 
 function Header({ onDiscover, onJoin }) {
   return (
-    <header className="Navbar">
+    <header className="Navbar" position="fixed">
       <div id="logo1">
-        <img src={logo} />
+        <img src={logo} alt=""/>
         <span>Soundwave</span>
       </div>
       <div id="botones">
-        <a onClick={onDiscover}>Discover</a>
-        <a onClick={onJoin}>Join</a>
+        <p onClick={onDiscover}>Discover</p>
+        <p onClick={onJoin}>Join</p>
       </div>
     </header>
   );
